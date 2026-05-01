@@ -166,6 +166,7 @@ for name, config in models.items():
     )
 
 results_df = pd.DataFrame(best_models)
+print(results_df)
 
 
 # selecting best model
